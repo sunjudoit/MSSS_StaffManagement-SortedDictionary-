@@ -15,10 +15,10 @@ namespace MSSSStaffDic
     {
 
         /// <summary>
-        /// Stores staff IDs and names in a shared Dictionary.
+        /// Stores staff IDs and names in a shared SortedDictionary.
         /// The staff ID is the key and the staff name is the value.
         /// </summary>
-        public static Dictionary<int, string> MasterFile = new Dictionary<int, string>();
+        public static SortedDictionary<int, string> MasterFile = new SortedDictionary<int, string>();
 
         /// <summary>
         /// Reads staff records from the CSV file and loads them into the Dictionary.
